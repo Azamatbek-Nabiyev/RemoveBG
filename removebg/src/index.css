@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Roboto+Condensed:ital,wght@0,700;1,400&display=swap');
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+  text-align: center;
+}
+
+.upload {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.upload > div {
+  width: 300px;
+  padding: 20px;
+}
+
+.upload-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  padding: 10px 20px;
+  border: 2px solid #92a9ea;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+label:hover {
+  border-color: #4969c0;
+}
+
+label i {
+  margin-right: 10px;
+}
+
+label span {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.result {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+.result img {
+  width: 30rem;
+}
+.result_inner a {
+  color: #92a9ea;
+  text-decoration: none;
+  font-size: 20px;
+}
